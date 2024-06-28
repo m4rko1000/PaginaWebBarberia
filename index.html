@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santa-Barber</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Primera sección -->
+    <header class="header">
+      <div class="menu container">
+        <div class="logo">
+          <svg>
+            <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+              Santa Barber
+            </text>
+          </svg>
+        </div>
+        <!--<a href="#" class="logo">Santa-Barber</a> -->
+        <input type="checkbox" id="check" />
+        <label for="check" class="icons">
+          <i class="bx bx-menu" id="menu-icono"></i>
+          <i class="bx bx-x" id="close-icono"></i>
+        </label>
+        <nav class="navbar">
+          <a href="http://192.168.1.2:5500/index.html">Inicio</a>
+          <a href="http://192.168.1.2:5500/Servicios/servicios.html">Servicios</a>
+          <a href="http://192.168.1.2:5500/Profesionales/profesionales.html"
+            >Profesionales</a
+          >
+          <a href="http://192.168.1.2:5500/Contacto/contacto.html">Contacto</a>
+        </nav>
+      </div>
+
+      <div class="header-content container">
+        <div class="header-txt">
+          <img src="Imagenes/Logo.png" alt="Santa Barber" />
+
+          <h1>Santa Barber</h1>
+          <p>Perfecciona tu estilo con nosotros</p>
+          <a
+            href="https://api.whatsapp.com/send?phone=56937568148&text=Hola, quiero agendar una hora."
+            target="_blank"
+            class="btn-1"
+            >Reserva tu hora</a
+          >
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Segunda sección -->
+    <section class="miniservicios">
+      <div class="container Titulo-segunda">
+        <h2>Servicios</h2>
+      </div>
+      <div class="container imagenes-servicios">
+        <img
+          src="Imagenes/CortePerfilado.png"
+          alt="Imagen del servicio de corte de pelo más perfilado"
+        />
+        <img
+          src="Imagenes/CorteDePelo.png"
+          alt="Imagen del servicio de corte de pelo"
+        />
+        <img
+          src="Imagenes/Perfilado.png"
+          alt="Imagen del servicio de perfilado"
+        />
+      </div>
+      <a href="http://127.0.0.1:5500/Servicios/servicios.html" class="container btn-servicios"
+        >Ir a servicios</a
+      >
+    </section>
+    
+
+    <!-- tercera sección -->
+    <article class="historia">
+      <div class="container titulo-historia">
+        <h2>Santa Barber</h2>
+      </div>
+      <div class="container historia-txt">
+        <p>
+          Hace apenas un año, en este mismo rincón de la ciudad, nació nuestra
+          barbería con una visión clara: elevar el arte de la barbería a nuevas
+          alturas. En poco tiempo, hemos construido un lugar donde la tradición
+          se fusiona con la innovación, y cada visita es una experiencia
+          inolvidable.
+        </p>
+    
+        <p>
+          Desde nuestros humildes comienzos, hemos labrado un camino de calidad
+          y compromiso. Cada corte de cabello, cada afeitado y cada cliente han
+          sido parte fundamental de nuestra historia. En solo un año, hemos
+          establecido un legado de estilo, confianza y amistad, y miramos hacia
+          el futuro con emoción por todo lo que está por venir. ¡Gracias por ser
+          parte de nuestro primer año y por ser parte de nuestra prometedora
+          historia!
+        </p>
+      </div>
+    </article>
+    
+
+    <!-- cuarta sección -->
+    <section class="sucursal">
+      <div class="container titulo-galeria">
+        <h2>Galería</h2>
+      </div>
+      <div class="container sucursal-slider">
+        <div class="slides">
+          <div class="slide slide-1">
+            <img
+              src="Imagenes/Sucursal/1.jpg"
+              alt="Imágenes/fotografías representativas de la barbería"
+            />
+          </div>
+          <div class="slide slide-2">
+            <img
+              src="Imagenes/Sucursal/2.jpg"
+              alt="Imágenes/fotografías representativas de la barbería"
+            />
+          </div>
+          <div class "slide slide-3">
+            <img
+              src="Imagenes/Sucursal/3.jpg"
+              alt="Imágenes/fotografías representativas de la barbería"
+            />
+          </div>
+          <div class="slide slide-4">
+            <img
+              src="Imagenes/Sucursal/4.jpg"
+              alt="Imágenes/fotografías representativas de la barbería"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- quinta sección -->
+    <footer>
+      <div class="container-footer-all">
+        <div class="container-body">
+          <div class="column1">
+            <h1>Redes Sociales</h1>
+            <div class="row">
+              <a
+                href="https://www.facebook.com/"
+                title="Síguenos en Facebook"
+                target="_blank"
+              >
+                <img src="icon/facebook.png" />
+              </a>
+              <label> /Santa-Barber</label>
+            </div>
+            <div class="row">
+              <a
+                href="https://www.instagram.com/"
+                title="Síguenos en Instagram"
+                target="_blank"
+              >
+                <img src="icon/instagram.png" />
+              </a>
+              <label>/Santa-BarberIG</label>
+            </div>
+          </div>
+          <div class="column2">
+            <h1>Información de Contacto</h1>
+            <div class="row2">
+              <a
+                href="https://maps.app.goo.gl/Pc1H3ajThSWDqwAHA"
+                title="Ubicación en Google Maps"
+                target="_blank"
+              >
+                <img src="icon/house.png" />
+              </a>
+              <label>Santiago, Santa Rosa, Bolivia #8707</label>
+            </div>
+            <div class="row2">
+              <img src="icon/smartphone.png" />
+              <label>+569 12345678</label>
+            </div>
+            <div class="row2">
+              <a
+                href="mailto:marco.orell.98@gmail.com"
+                title="Envíanos un correo electrónico"
+                target="_blank"
+              >
+                <img src="icon/contact.png" />
+              </a>
+              <label>marko_antonio11@hotmail.com</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-footer">
+        <div class="footer">
+          <div class="copyright">
+            © 2023 Todos los Derechos Reservados | <a href="">Santa-Barber</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>
